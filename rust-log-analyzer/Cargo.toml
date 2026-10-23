@@ -1,0 +1,11 @@
+[package]
+name = "loglens"
+version = "0.1.0"
+edition = "2021"
+description = "Fast parallel analyzer for access logs"
+
+[dependencies]
+
+[profile.release]
+lto = true
+codegen-units = 1
